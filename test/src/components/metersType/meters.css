@@ -1,0 +1,26 @@
+.wrapper{
+    width: 120px;
+    height: 40px;
+    padding: 20px 0 20px 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D2432;
+}
+
+.container{
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

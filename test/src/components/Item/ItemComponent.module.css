@@ -1,0 +1,106 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #1f2939;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  height: 52px;
+  padding: 6px 0;
+  background-color: #ffffff;
+  border: 1px solid #e0e5eb;
+}
+
+.wrapper:nth-child(2n) {
+  background-color: #f7f8f9;
+}
+
+.number {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px 0;
+}
+
+.metersType {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px 0;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 20px;
+  width: 160px;
+  height: 40px;
+}
+
+.isAuto {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 20px;
+  width: 130px;
+  height: 40px;
+}
+
+.numbers {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 20px;
+}
+
+.address {
+  width: 430px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 20px;
+}
+
+.description {
+  width: 306px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 20px;
+  color: #5e6674;
+}
+
+.delButtonWrapper {
+  width: 66px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #fee3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.delButton:hover {
+  cursor: pointer;
+  background-color: #fed7d7;
+}

@@ -6,7 +6,7 @@ import { FullMeters } from "../types/types";
 
 
 class MetersStore {
-  meters?: isPromiseBasedObservable<FullMeters[]>;
+  meters?: isPromiseBasedObservable<FullMeters[]>; // не смог типизировать, переписал на функциональный компонент
   isDisabled = false;
 
   constructor() {

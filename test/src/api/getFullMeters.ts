@@ -9,7 +9,7 @@ export function getFullMeters() {
   };
 
   const meters = async () =>
-    fetchData("http://showroom.eis24.me/api/v4/test/meters");
+    fetchData("http://showroom.eis24.me/api/v4/test/meters?limit=20");
 
 
 

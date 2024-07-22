@@ -5,11 +5,11 @@ import { ItemComponent } from '../Item/ItemComponent.tsx';
 import { FullMeters } from '../../types/types';
 
 export const MainContent = observer(() => {
-  const { meters, isDisabled, getMetersAction, deleteMeter } = metersStore;
+  const { meters, isDisabled, getMetersAction, deleteMeter } = metersStore; //  получение данных из старого стора
 
   useEffect(() => {
     getMetersAction();
-  }, [getMetersAction]);
+  }, []);
 
   if (meters?.status === 'pending') {
     return <h3>Загрузка...</h3>;
